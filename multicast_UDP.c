@@ -153,7 +153,7 @@ int main(int argc, char *argv[]) {
           /* Criando um socket UDP*/
           isock = socket(PF_INET, SOCK_DGRAM, IPPROTO_UDP);
 	  
-	  /* Seta a reulização da porta para permitir vários bind por host*/
+	  /* Seta a reutização da porta para permitir vários bind por host*/
 	  if ((
 		 setsockopt(
 			 isock,
@@ -187,7 +187,7 @@ int main(int argc, char *argv[]) {
 	  address.sin_port        = htons(mc_port);	      // Porta para comunicação,mantendo a ordem dos bytes
 
 
-	  /* bind to multicast address to socket */
+	  /* Associando o endereço multicast ao socket */
 	  if ((
 		bind(
 		     isock,
