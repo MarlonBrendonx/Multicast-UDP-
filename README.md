@@ -1,4 +1,4 @@
-## Execução :computer:
+## Compilando:computer:
 **Conceda permissão de execução e compile com gcc **
 ```bash
 chmod +x multicast.c
