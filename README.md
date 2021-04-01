@@ -1,8 +1,8 @@
 ## Compilando:computer:
 **Conceda permissão de execução e compile com gcc **
 ```bash
-chmod +x multicast.c
-gcc multicast.c -lpthread
+chmod +x multicast_UDP.c
+gcc multicast_UDP.c -lpthread
 
 ```
 ## Execução
